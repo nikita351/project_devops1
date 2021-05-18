@@ -47,12 +47,3 @@
   handlers:
     - name: Restart apache
       service: name=apache2 state=restarted
-
-              
-      #    - name: deploy index.html
-      #      become: yes
-      #      become_user: root
-      #      copy:
-      #        src: ./index.html
-      #        dest: /var/www/html/index.html
-      #
