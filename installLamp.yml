@@ -1,6 +1,6 @@
 ---
 - name: Install LAMP
-  hosts: all
+  hosts: test_php
   become: yes
 
   vars:
