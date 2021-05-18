@@ -1,2 +1,2 @@
-apache_test  ansible_host=172.31.47.83  ansible_user=ubuntu
+apache_test  ansible_host=172.31.42.233  ansible_user=ubuntu
 
