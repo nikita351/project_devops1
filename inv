@@ -1,2 +1,2 @@
-ansible_host=172.31.47.83
+test_php ansible_host=172.31.47.83 ansible_user=ubuntu
 
