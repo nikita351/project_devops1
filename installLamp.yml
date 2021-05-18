@@ -1,6 +1,6 @@
 ---
 - name: Install LAMP
-  hosts: test_php
+  hosts: all
   become: yes
 
   vars:
@@ -18,7 +18,7 @@
           - mysql-server
           - php7.0
           - php7.0-mysql
-        state: latest
+        state: present
         update_cache: yes
 
     - name: start apache service
